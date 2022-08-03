@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-left: 270px;
+}
+
+.header-box {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.ul__list--header {
+    display: flex;
+    gap: 40px;
+}
+
+.link-header {
+    color: black;
+    opacity: 0.5;
+}
+
+.link-header:hover {
+    opacity: 1;
+    border-bottom: 2px solid #999999;
+    padding-bottom: 5px;
+}
+
+.link--box__header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 500px;
+}
+
+.input-header {
+    border: none;
+    border-bottom: 2px solid #b2b2b3;
+    outline: none;
+    width: 160px;
+    line-height: 27px;
+}
+
+.info--h2 {
+    opacity: 0.5;
+    width: 450px;
+    line-height: 30px;
+    margin-left: 33px;
+}
+
+.span-box {
+    display: flex;
+    margin-top: 65px;
+    align-items: center;
+}
+
+.line-freedom__calls {
+    width: 2px;
+    height: 150px;
+    background-color: #999999;
+    display: inline-block;
+}
+
+.h2-info__freedom--calls {
+    font-size: 40px;
+}
+
+.three-links {
+    background-color: #ea625c;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.three-links:hover {
+    background-color: #dd645e;
+}
+
+.freedom-calls::after {
+    background-image: url(../img/watches.jpg);
+    width: 500px;
+    height: 630px;
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    margin-left: 577px;
+    margin-top: -450px;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #e0dfdf;
+}
+
+.main-box {
+    margin-left: 270px;
+}
+
+.main-box_first {
+    margin-top: 45px;
+    margin-bottom: 120px;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #c7c8c8;
+    display: block;
+}
+
+.h3-info {
+    margin-bottom: 55px;
+}
+
+.p-h3__info {
+    width: 300px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.three-dots {
+    gap: 11px;
+    display: flex;
+}
+
+.main-box_first {
+    display: flex;
+    gap: 80px;
+}
+
+.number-2 {
+    width: 310px;
+}
+
+.line-learn--more {
+    width: 35px;
+    height: 3px;
+    background-color: #ea625c;
+    display: inline-block;
+}
+
+
+.line-learn--more:hover {
+    width: 45px;
+}
+
+.learn--more {
+    display: flex;  
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.link-learn--more {
+    color: #ea625c;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.Nike-sport {
+    width: 400px;
+}
+
+.last-line {    
+    height: 115px;
+}
+
+.last-p {
+    width: 460px;
+}
+
+.main-box_second {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 45px;
+}
+
+footer {
+    background: url(../img/runners.jpg);
+    width: 100%;
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 700px;
+    padding-top: 210px;
+    padding-right: 265px;
+    padding-bottom: 202px;
+}
+
+.footer-p {
+    color: #FFF;
+    line-height: 25px;
+}
+
+.footer-h2 {
+    color: #FFF;
+}
+
+.footer-line {
+    background-color: #FFF;
+}
+
+.footer-span__box {
+    gap: 35px;
+}
+
+.link-3:hover {
+    background-color: #c95953;
+}
